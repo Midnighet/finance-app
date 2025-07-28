@@ -73,3 +73,7 @@ footer {
   border: none;
   border-radius: 6px;
 }
+#calculator {
+  display: none; /* Sembunyikan saat awal */
+  /* Tambahkan styling lain jika perlu, seperti border, padding, dsb */
+}

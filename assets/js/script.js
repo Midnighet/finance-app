@@ -61,6 +61,14 @@ function hitungJumlah() {
     document.getElementById('calc-result').textContent = 'Error';
   }
 }
+document.getElementById("toggle-calculator").addEventListener("click", function() {
+  const calc = document.getElementById("calculator");
+  if (calc.style.display === "none" || calc.style.display === "") {
+    calc.style.display = "block";
+  } else {
+    calc.style.display = "none";
+  }
+});
 
 
 loadNotes();
