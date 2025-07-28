@@ -13,3 +13,15 @@ finance-app/
 ├── /utils
 │   └── helpers.js
 ├── README.md
+
+🔢 Fitur kalkulasi jumlah (seperti Excel: tambah, kurang, kali, bagi langsung di tampilan)
+
+🧠 Integrasi sistem pembelajaran awal (ML dasar) dari pola transaksi
+
+💾 Penyimpanan data transaksi (localStorage, lalu opsi iCloud/Google Drive jika mau online)
+
+📊 Tampilan riwayat transaksi + analisa dasar (misalnya: total per kategori, grafik mini)
+
+🔄 Sinkronisasi antar perangkat (opsional & untuk tahap lebih lanjut)
+
+⚙️ Pengaturan target tabungan dan saran penyimpanan sederhana

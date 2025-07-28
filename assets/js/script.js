@@ -52,4 +52,15 @@ function showCalculator() {
   alert("Fitur kalkulator akan ditambahkan nanti.");
 }
 
+function hitungJumlah() {
+  const input = document.getElementById('calc-input').value;
+  try {
+    const hasil = eval(input);
+    document.getElementById('calc-result').textContent = hasil;
+  } catch (error) {
+    document.getElementById('calc-result').textContent = 'Error';
+  }
+}
+
+
 loadNotes();
