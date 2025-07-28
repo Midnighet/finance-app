@@ -1,0 +1,15 @@
+finance-app/
+├── index.html
+├── /assets
+│   ├── /css
+│   │   └── style.css
+│   ├── /js
+│   │   └── app.js
+│   └── /img
+├── /data
+│   └── transactions.json
+├── /ml
+│   └── pattern-learner.js
+├── /utils
+│   └── helpers.js
+├── README.md

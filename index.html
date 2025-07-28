@@ -1,0 +1,39 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Catatan Keuangan</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header>
+    <h1>Catatan Keuangan</h1>
+  </header>
+
+  <main>
+    <section class="form">
+      <input type="text" id="desc" placeholder="Deskripsi..." />
+      <input type="number" id="amount" placeholder="Jumlah..." />
+      <select id="type">
+        <option value="income">Pemasukan</option>
+        <option value="expense">Pengeluaran</option>
+      </select>
+      <button id="addBtn">Tambah</button>
+    </section>
+
+    <section class="summary">
+      <h2>Total</h2>
+      <p id="total">Rp 0</p>
+    </section>
+
+    <section class="transactions">
+      <h2>Transaksi</h2>
+      <ul id="transactionList"></ul>
+    </section>
+  </main>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
